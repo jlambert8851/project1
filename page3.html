@@ -5,9 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>James's Book Recommendations</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- My own CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+
 </head>
 <body>
-    Testing 1 2 3
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">James's Book Recommendations</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="page2.html">My Reads</a>
+                <a class="nav-item nav-link active" href="#">Make a Recommendation <span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+          </nav>
+
+          <h3>
+              Use this form to send in a recommendation:
+
+
+          </h3>
+
+         <form netlify>
+            <div class="form-group">
+                <label for="name">Your name</label>
+                <input type="text" class="form-control" id="name" name="name">
+              </div>
+            <div class="form-group">
+                <label for="name">Name of the book</label>
+                <input type="text" class="form-control" id="name" name="name">
+              </div>
+              <div class="form-group">
+                <label for="name">Why did you like it?</label>
+                <input type="text" class="form-control" id="name" name="name">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        
+
+          <div class="row">
+            <div class="col-md-6">
+              <h4>My favorite genres and topics:</h4>
+              <ul>
+                  <li>Military History</li>
+                  <li>Science Fiction</li>
+                  <li>Decision Making</li>
+                  </ul>
+            </div>
+            <div class="col-md-6">
+              <h4>I also like to switch it up!</h4>
+              <p>If you like a book that doesn't fall into these categories, don't hesitate to recommend it. <i>Shadow of the Wind</i> is a great example of a book I never would have found for myself but I really enjoyed.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

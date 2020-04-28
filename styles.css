@@ -1,0 +1,28 @@
+/* Jumbotron */
+
+.jumbotron {
+
+    padding: 0;
+    margin: 0;
+    border: 0
+
+
+}
+
+.container{
+    padding-right:0;
+    padding-left:0
+}
+
+
+.navbar{
+
+margin-bottom: 20px;
+
+}
+
+.row{
+
+    margin-top: 30px;
+    
+    }
